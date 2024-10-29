@@ -32,6 +32,7 @@ function Home() {
   }, []);
 
   return (
+    
     <div className="py-56 px-12 text-center animate-fadeIn">
       {/* Title Section */}
       <div className="max-w-screen-lg mx-auto mb-16">
@@ -58,7 +59,9 @@ function Home() {
       </div>
 
       {/* Blog Titles with Dates and Descriptions Section */}
+
       <div className="max-w-screen-lg mx-auto mt-16 px-6 md:px-12">
+      <h2 class="text-6xl font-serif mb-6 tracking-wide text-gray-900 dark:text-gray-100 pb-10">Newest Blogs</h2>
         {/* Blog 1 */}
         <div className="flex justify-between items-center border-t-2 border-gray-300 dark:border-gray-600 py-4">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
@@ -68,7 +71,7 @@ function Home() {
           </h3>
           <span className="text-gray-600 dark:text-gray-400 text-sm">October 27, 2024</span>
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed pb-5">
           Discover the intricate strategies of chess that elevate your game. Master the opening, mid-game tactics, and endgame techniques.
         </p>
 
@@ -81,7 +84,7 @@ function Home() {
           </h3>
           <span className="text-gray-600 dark:text-gray-400 text-sm">October 25, 2024</span>
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed pb-5">
           Dive deep into the wonders of mathematics, from basic principles to complex equations that shape the world.
         </p>
 
@@ -94,7 +97,7 @@ function Home() {
           </h3>
           <span className="text-gray-600 dark:text-gray-400 text-sm">October 22, 2024</span>
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed pb-5">
           Explore cutting-edge technologies that are transforming industries and shaping the future, including AI, robotics, and more.
         </p>
 
@@ -107,7 +110,7 @@ function Home() {
           </h3>
           <span className="text-gray-600 dark:text-gray-400 text-sm">October 20, 2024</span>
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed pb-5">
           Learn strategies to stay focused, manage time efficiently, and boost productivity to achieve your goals.
         </p>
 
@@ -120,7 +123,7 @@ function Home() {
           </h3>
           <span className="text-gray-600 dark:text-gray-400 text-sm">October 18, 2024</span>
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed ">
           Join us on a journey to explore new destinations and cultures, and get travel tips for your next adventure.
         </p>
       </div>
