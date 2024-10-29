@@ -5,7 +5,7 @@ function About() {
     <>
       <div className="text-center pt-24">
         {/* Title */}
-        <h1 className="font-weight: 900 font-serif py-10 px-20 text-7xl font-bold text-gray-900 dark:text-gray-100">
+        <h1 className="md:text-6xl sm:text-5xl font-weight: 900 font-serif py-10 px-20 text-7xl font-bold text-gray-900 dark:text-gray-100">
           About Me
         </h1>
 
