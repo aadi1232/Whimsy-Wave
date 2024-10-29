@@ -1,0 +1,38 @@
+.no-wrap {
+  white-space: nowrap;  /* Prevent text wrapping */
+  overflow: hidden;     /* Hide overflow */
+  text-overflow: ellipsis;  /* Show ellipsis if text overflows */
+}
+
+.text-center {
+  text-align: center;  /* Align text to center */
+}
+
+.text-right {
+  text-align: right;  /* Align text to the right */
+}
+
+.heading-small {
+  font-size: 3.5rem;  /* Reduce the font size */
+}
+
+.paragraph-margin {
+  margin-top: 2rem;  /* Add margin to the top of the paragraphs */
+}
+
+.heading-margin {
+  margin-bottom: 2rem;  /* Add margin to the bottom of the headings */
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
