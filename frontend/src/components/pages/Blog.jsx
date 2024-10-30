@@ -4,7 +4,7 @@ import { FaClock, FaCalendarAlt } from 'react-icons/fa'; // Importing icons for 
 
 function Blog() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 pt-16">
+    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 pt-32 pb-28">
       <div className="max-w-6xl mx-auto p-8">
         <h2 className="font-serif font-bold text-3xl mb-6 text-center">Explore The Topics</h2>
         <div className="w-48 mx-auto border-t-4 border-gray-300 dark:border-gray-600 mb-10"></div>

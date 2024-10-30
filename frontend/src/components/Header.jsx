@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // For routing
+import { Link, useNavigate } from 'react-router-dom'; // For routing
 import { IoSunny, IoMoon, IoMenu } from 'react-icons/io5'; // Icons for light/dark mode and menu
 
 function Header() {
   const [darkMode, setDarkMode] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false); // For handling the mobile menu
+  const navigate = useNavigate(); // To navigate to the clicked route
 
   // Apply the saved or system default theme when the app loads
   useEffect(() => {
@@ -34,6 +35,11 @@ function Header() {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const handleMenuClick = (path) => {
+    setMenuOpen(false); // Close the menu after clicking
+    navigate(path); // Navigate to the clicked page
   };
 
   return (
@@ -97,13 +103,19 @@ function Header() {
 
       {/* Mobile Menu (Dropdown) */}
       {menuOpen && (
-        <div className="absolute top-16 right-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-4 sm:hidden">
-          <Link to="/blog" className="block mb-2 text-gray-800 dark:text-gray-100">
+        <div className="absolute top-16 right-4 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg p-4 sm:hidden transition-all">
+          <button
+            className="block text-lg text-gray-800 dark:text-gray-100 mb-3 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-lg transition"
+            onClick={() => handleMenuClick('/blog')}
+          >
             Blogs
-          </Link>
-          <Link to="/about" className="block text-gray-800 dark:text-gray-100">
+          </button>
+          <button
+            className="block text-lg text-gray-800 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-lg transition"
+            onClick={() => handleMenuClick('/about')}
+          >
             About Me
-          </Link>
+          </button>
         </div>
       )}
     </header>
