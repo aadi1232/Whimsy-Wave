@@ -11,13 +11,13 @@ function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Blog 1: Chess */}
-          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md animate-fadeIn transition duration-500 ease-in-out transform hover:-translate-y-1 hover:rotate-360">
             <h3 className="text-2xl font-bold mb-4">
               <Link to="/blog/chess" className="hover:underline">
                 The Art of Chess Strategy
               </Link>
             </h3>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 font-serif">
               Discover the intricate strategies of chess that elevate your game. Master the opening, mid-game tactics, and endgame techniques.
             </p>
 
@@ -28,19 +28,19 @@ function Blog() {
             </div>
 
             {/* Read More */}
-            <Link to="/blog/chess" className="text-gray-900 dark:text-white hover:underline font-bold">
+            <Link to="/blog/chess" className="text-gray-900 dark:text-white hover:underline font-bold font-serif">
               Read more →
             </Link>
           </div>
 
           {/* Blog 2: Maths */}
-          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md animate-fadeIn transition duration-500 ease-in-out transform hover:-translate-y-1 hover:rotate-360">
             <h3 className="text-2xl font-bold mb-4">
               <Link to="/blog/maths" className="hover:underline">
                 Unraveling the Mysteries of Mathematics
               </Link>
             </h3>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 font-serif">
               Dive deep into the wonders of mathematics, from basic principles to complex equations that shape the world.
             </p>
 
@@ -50,19 +50,19 @@ function Blog() {
               <FaCalendarAlt /> <span>October 25, 2024</span>
             </div>
 
-            <Link to="/blog/maths" className="text-gray-900 dark:text-white hover:underline font-bold">
+            <Link to="/blog/maths" className="text-gray-900 dark:text-white hover:underline font-bold font-serif">
               Read more →
             </Link>
           </div>
 
           {/* Blog 3: Technology */}
-          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md animate-fadeIn transition duration-500 ease-in-out transform hover:-translate-y-1 hover:rotate-360">
             <h3 className="text-2xl font-bold mb-4">
               <Link to="/blog/technology" className="hover:underline">
                 Emerging Technologies: The Future of Innovation
               </Link>
             </h3>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 font-serif">
               Explore cutting-edge technologies that are transforming industries and shaping the future, including AI, robotics, and more.
             </p>
 
@@ -72,19 +72,19 @@ function Blog() {
               <FaCalendarAlt /> <span>October 22, 2024</span>
             </div>
 
-            <Link to="/blog/technology" className="text-gray-900 dark:text-white hover:underline font-bold">
+            <Link to="/blog/technology" className="text-gray-900 dark:text-white hover:underline font-bold font-serif">
               Read more →
             </Link>
           </div>
 
           {/* Blog 4: Productivity */}
-          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md animate-fadeIn transition duration-500 ease-in-out transform hover:-translate-y-1 hover:rotate-360">
             <h3 className="text-2xl font-bold mb-4">
               <Link to="/blog/productivity" className="hover:underline">
                 Maximizing Productivity: Tips for Efficiency
               </Link>
             </h3>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 font-serif">
               Learn strategies to stay focused, manage time efficiently, and boost productivity to achieve your goals.
             </p>
 
@@ -94,19 +94,19 @@ function Blog() {
               <FaCalendarAlt /> <span>October 20, 2024</span>
             </div>
 
-            <Link to="/blog/productivity" className="text-gray-900 dark:text-white hover:underline font-bold">
+            <Link to="/blog/productivity" className="text-gray-900 dark:text-white hover:underline font-bold font-serif">
               Read more →
             </Link>
           </div>
 
           {/* Blog 5: Travel */}
-          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md animate-fadeIn transition duration-500 ease-in-out transform hover:-translate-y-1 hover:rotate-360">
             <h3 className="text-2xl font-bold mb-4">
               <Link to="/blog/travel" className="hover:underline">
                 Travel Diaries: Exploring the World
               </Link>
             </h3>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 font-serif">
               Join us on a journey to explore new destinations and cultures, and get travel tips for your next adventure.
             </p>
 
@@ -116,7 +116,7 @@ function Blog() {
               <FaCalendarAlt /> <span>October 18, 2024</span>
             </div>
 
-            <Link to="/blog/travel" className="text-gray-900 dark:text-white hover:underline font-bold">
+            <Link to="/blog/travel" className="text-gray-900 dark:text-white hover:underline font-bold font-serif">
               Read more →
             </Link>
           </div>
@@ -127,3 +127,4 @@ function Blog() {
 }
 
 export default Blog;
+
