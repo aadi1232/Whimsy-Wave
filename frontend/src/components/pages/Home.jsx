@@ -19,7 +19,7 @@ function Home() {
     // Initialize typed.js for the "A place where creativity meets innovation!" text with delay
     const typedAadi = new Typed(aadiEl.current, {
       strings: ["A place where creativity meets innovation!"],
-      typeSpeed: 50,
+      typeSpeed: 80,
       startDelay: 2000,
       showCursor: false,
     });
@@ -45,7 +45,7 @@ function Home() {
 
       {/* Paragraphs Section */}
       <div className="max-w-screen-lg mx-auto mt-8 px-4 sm:px-6 md:px-12">
-        <p className="text-lg sm:text-2xl text-gray-900 dark:text-gray-100 leading-relaxed italic">
+        <p className="text-lg sm:text-2xl text-gray-900 dark:text-gray-100 leading-relaxed italic ">
           Hey there! I'm Patel Aadi, the creative force behind Whimsy Wave. This
           blog is born out of a passion for the whimsical, the imaginative, and
           the inspiring. Whimsy Wave isn't just another blog, it's a haven for

@@ -5,7 +5,10 @@
 }
 
 .text-center {
-  text-align: center;  /* Align text to center */
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  text-justify: auto;  /* Align text to center */
 }
 
 .text-right {

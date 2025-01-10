@@ -10,6 +10,7 @@ import MathBlog from './components/pages/MathBlog';
 import TechnologyBlog from './components/pages/TechnologyBlog';
 import ProductivityBlog from './components/pages/ProductivityBlog';
 import TravelBlog from './components/pages/TravelBlog';
+import ScrollToTop from './components/ScrollToTop';
 export default function App() {
   // State to manage dark mode
   const [darkMode, setDarkMode] = useState(false);
@@ -44,7 +45,8 @@ export default function App() {
         {/* Pass darkMode and toggleDarkMode to Header so it can toggle the theme */}
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
-        {/* Define the routes for the application */}
+         
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home route */}
           <Route path="/about" element={<About />} />
@@ -58,6 +60,7 @@ export default function App() {
 
         {/* Render Footer component on all routes */}
         <Footer />
+         
       </div>
     </BrowserRouter>
   );
