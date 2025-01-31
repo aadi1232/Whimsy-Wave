@@ -2,7 +2,7 @@ function ChessBlog() {
    
 
   return (
-    <div className="max-w-4xl mx-auto py-16 px-6 pb-24 pt-40">
+    <div className="max-w-4xl mx-auto py-16 px-6 pb-24 pt-40 text-justify">
       
       <h1 className="text-5xl font-bold mb-6">The Art of Chess Strategy</h1>
 

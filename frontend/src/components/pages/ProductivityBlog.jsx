@@ -4,7 +4,7 @@ function ProductivityBlog() {
   
 
   return (
-    <div className="max-w-4xl mx-auto py-16 px-6   dark:bg-gray-900 text-black dark:text-white transition-colors duration-500">
+    <div className="max-w-4xl mx-auto py-16 px-6   dark:bg-gray-900 text-black dark:text-white transition-colors duration-500 text-justify">
       {/* Title and Meta Information */}
       <h1 className="text-5xl font-bold mb-6">Maximizing Productivity: Tips for Efficiency</h1>
 

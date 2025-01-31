@@ -6,6 +6,54 @@
   height: 40vmin;
   pointer-events: none;
 }
+@font-face {
+  font-family: 'Irish Grover';
+  src: url('/fonts/IrishGrover-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Joti One';
+  src: url('/fonts/JotiOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kelly Slab'; /* ✅ Corrected capitalization */
+  src: url('/fonts/KellySlab-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kenia'; /* ✅ Corrected capitalization */
+  src: url('/fonts/kenia-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Class for Irish Grover font */
+.font-irish {
+  font-family: 'Irish Grover', cursive;
+}
+
+/* Class for Joti One font */
+.font-joti {
+  font-family: 'Joti One', cursive;
+}
+
+/* Class for Kelly Slab font */
+.kelly-slab {
+  font-family: 'Kelly Slab', cursive;
+}
+
+/* Class for Kenia font */
+.kenia {
+  font-family: 'Kenia', cursive;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

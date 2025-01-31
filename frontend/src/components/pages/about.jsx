@@ -34,10 +34,10 @@ function About() {
             <p className="text-xl md:text-2xl tracking-wide text-gray-700 dark:text-gray-300 mb-4">Tech Enthusiast | Problem Solver | Innovator</p>
 
             {/* Description Section */}
-            <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed italic">
+            <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed italic text-justify">
               I'm Aadi Patel, currently pursuing my B.Tech in Computer Science and Engineering at IIIT Sri City, and I'm in my second year. My journey in technology has been one of exploration, learning, and creativity. Whether it's diving into coding challenges, working on innovative development projects, or exploring the latest trends in machine learning, my passion drives me to push boundaries.
             </p>
-            <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed mt-4 italic">
+            <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed mt-4 italic text-justify">
               I aim for precision and continuous improvement in every project I take on. My focus is on enhancing my problem-solving skills and bringing creative solutions to complex challenges. I’m committed to honing my expertise in coding, product management, and innovation to achieve excellence in my career.
             </p>
           </div>
@@ -62,7 +62,7 @@ function About() {
             {/* Right column: Hobbies */}
             <div>
               <h4 className="text-xl md:text-2xl font-semibold tracking-wide text-gray-800 dark:text-gray-200 mb-2">Hobbies</h4>
-              <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed italic pb-24">
+              <p className="text-lg md:text-xl tracking-wide text-gray-700 dark:text-gray-300 leading-relaxed italic pb-24 text-justify">
                 Apart from tech, I enjoy expressing my creativity through chess, music, and cricket. I'm also passionate about video editing, blending storytelling with technical skills to create engaging content. These hobbies help me stay balanced, fuel my creativity, and offer new perspectives.
               </p>
             </div>

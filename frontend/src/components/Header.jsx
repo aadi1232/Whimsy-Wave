@@ -53,7 +53,9 @@ function Header() {
           className="w-10 h-10 sm:w-8 sm:h-8 rounded-full object-cover"
         />
         {/* Website Name */}
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-100">
+        <h1 
+        style={{fontFamily:"'Joti One', cursive"}}
+        className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-100">
           Whimsy Wave
         </h1>
       </Link> 
@@ -62,13 +64,17 @@ function Header() {
       <div className="hidden sm:flex space-x-4 items-center">
         {/* For larger screens, show Blogs and About Me as normal buttons */}
         <Link to="/blog">
-          <button className="text-xl sm:text-lg text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+          <button
+           style={{ fontFamily: "'Irish Grover', cursive" }}
+           className="text-xl sm:text-lg text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
             Blogs
           </button>
         </Link>
 
         <Link to="/about">
-          <button className="text-xl sm:text-lg text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+          <button 
+          style={{ fontFamily: "'Irish Grover', cursive" }}
+          className="text-xl sm:text-lg text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
             About Me
           </button>
         </Link>
