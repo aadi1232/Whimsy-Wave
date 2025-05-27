@@ -7,53 +7,52 @@
   pointer-events: none;
 }
 @font-face {
-  font-family: 'Irish Grover';
-  src: url('/fonts/IrishGrover-Regular.ttf') format('truetype');
+  font-family: "Irish Grover";
+  src: url("/fonts/IrishGrover-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Joti One';
-  src: url('/fonts/JotiOne-Regular.ttf') format('truetype');
+  font-family: "Joti One";
+  src: url("/fonts/JotiOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Kelly Slab'; /* ✅ Corrected capitalization */
-  src: url('/fonts/KellySlab-Regular.ttf') format('truetype');
+  font-family: "Kelly Slab"; /* ✅ Corrected capitalization */
+  src: url("/fonts/KellySlab-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Kenia'; /* ✅ Corrected capitalization */
-  src: url('/fonts/kenia-regular.ttf') format('truetype');
+  font-family: "Kenia"; /* ✅ Corrected capitalization */
+  src: url("/fonts/kenia-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 /* Class for Irish Grover font */
 .font-irish {
-  font-family: 'Irish Grover', cursive;
+  font-family: "Irish Grover", cursive;
 }
 
 /* Class for Joti One font */
 .font-joti {
-  font-family: 'Joti One', cursive;
+  font-family: "Joti One", cursive;
 }
 
 /* Class for Kelly Slab font */
 .kelly-slab {
-  font-family: 'Kelly Slab', cursive;
+  font-family: "Kelly Slab", cursive;
 }
 
 /* Class for Kenia font */
 .kenia {
-  font-family: 'Kenia', cursive;
+  font-family: "Kenia", cursive;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -83,4 +82,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Blog animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slowSpinReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes slowPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s forwards ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s forwards ease-out;
+}
+
+.animate-slow-spin {
+  animation: slowSpin 25s linear infinite;
+}
+
+.animate-slow-spin-reverse {
+  animation: slowSpinReverse 30s linear infinite;
+}
+
+.animate-slow-pulse {
+  animation: slowPulse 15s ease-in-out infinite;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+/* Utility classes for text truncation */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
