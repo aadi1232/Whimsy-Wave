@@ -36,7 +36,7 @@ function Blog() {
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="border-b-4 border-black dark:border-white pb-2">
-              Our Blog
+              My Blogs
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">

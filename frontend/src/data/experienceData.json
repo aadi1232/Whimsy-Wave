@@ -1,0 +1,38 @@
+[
+  {
+    "id": "qbtrix",
+    "company": "Qbtrix",
+    "role": "Software Developer",
+    "period": "Current",
+    "type": "Full-time",
+    "description": "Working on advanced telemetry, observability, and in-browser development environments with modern tech stack including microservices architecture.",
+    "technologies": ["Svelte", "Nest.js", "MongoDB", "Langfuse", "LLM", "PostHog", "WebContainer", "Go"],
+    "achievements": [
+      "Implemented advanced telemetry and observability using PostHog and Langfuse",
+      "Integrated WebContainer for in-browser development environments",
+      "Developed Go-based microservice for billing and credit calculation workflows",
+      "Built analytics endpoints for platform-wide insights and data-driven decision-making",
+      "Enhanced business growth initiatives through comprehensive analytics"
+    ],
+    "location": "Remote",
+    "website": "#"
+  },
+  {
+    "id": "web3ssh-tech",
+    "company": "WEB3SSH-Tech Team",
+    "role": "Full Stack Developer",
+    "period": "Project-based",
+    "type": "Contract",
+    "description": "Built and deployed hackathon project submission portal with interactive features for event management and participant engagement.",
+    "technologies": ["Next.js", "MongoDB", "Email Integration", "Authentication"],
+    "achievements": [
+      "Developed hackathon submission portal for 50+ teams",
+      "Created interactive leaderboard and engagement features",
+      "Implemented secure user verification with pre-assigned UIDs and emails",
+      "Built auto-generated email system for project submissions",
+      "Streamlined event management and boosted participant engagement"
+    ],
+    "location": "Remote",
+    "website": "#"
+  }
+]

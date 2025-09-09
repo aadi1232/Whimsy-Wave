@@ -60,9 +60,17 @@ function Header() {
         </h1>
       </Link> 
 
-      {/* Right side: Blog, About, Dark/Light mode toggle */}
+      {/* Right side: Projects, Blog, About, Dark/Light mode toggle */}
       <div className="hidden sm:flex space-x-4 items-center">
-        {/* For larger screens, show Blogs and About Me as normal buttons */}
+        {/* For larger screens, show Projects, Blogs and About Me as normal buttons */}
+        <Link to="/projects">
+          <button
+           style={{ fontFamily: "'Irish Grover', cursive" }}
+           className="text-xl sm:text-lg text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+            Projects
+          </button>
+        </Link>
+
         <Link to="/blog">
           <button
            style={{ fontFamily: "'Irish Grover', cursive" }}
@@ -110,6 +118,12 @@ function Header() {
       {/* Mobile Menu (Dropdown) */}
       {menuOpen && (
         <div className="absolute top-16 right-4 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg p-4 sm:hidden transition-all">
+          <button
+            className="block text-lg text-gray-800 dark:text-gray-100 mb-3 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-lg transition"
+            onClick={() => handleMenuClick('/projects')}
+          >
+            Projects
+          </button>
           <button
             className="block text-lg text-gray-800 dark:text-gray-100 mb-3 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-lg transition"
             onClick={() => handleMenuClick('/blog')}

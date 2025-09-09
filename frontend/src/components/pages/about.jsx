@@ -356,12 +356,20 @@ function About() {
               projects, or simply chat about technology and innovation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105">
+              <a 
+                href="https://www.linkedin.com/in/aadi-patel-91b4a1288/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105 inline-block text-center"
+              >
                 Get In Touch
-              </button>
-              <button className="px-8 py-3 border-2 border-black dark:border-white text-black dark:text-white rounded-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 transform hover:scale-105">
+              </a>
+              <a 
+                href="/projects"
+                className="px-8 py-3 border-2 border-black dark:border-white text-black dark:text-white rounded-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 transform hover:scale-105 inline-block text-center"
+              >
                 View Projects
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bubbletopia",
+    "title": "BubbleTopia – A Deep-Sea Adventure",
+    "description": "An immersive 2D underwater adventure set in the mystical realm of BubbleTopia, featuring a compelling narrative and unique gameplay mechanics.",
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
+    "technologies": ["GD-script", "Physics Engine", "Game Development"],
+    "category": "Game Development",
+    "status": "Completed",
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "features": [
+      "Three unique levels with puzzles and enemy encounters",
+      "Climactic boss battle with advanced mechanics",
+      "Immersive underwater adventure gameplay",
+      "Secured 2nd position in global game jam"
+    ],
+    "achievement": "🏆 2nd Position in Global Game Jam (3-day hackathon with 5-person team)"
+  },
+  {
+    "id": "advance-todo-app",
+    "title": "Advanced To-Do App",
+    "description": "A full-stack collaborative To-Do application with real-time features, AI-powered suggestions, and advanced search capabilities using modern web technologies.",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
+    "technologies": ["Svelte", "Node.js", "Socket.io", "Gemini AI", "Typesense", "MongoDB"],
+    "category": "Full Stack",
+    "status": "Completed",
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "features": [
+      "Real-time collaboration with Socket.IO",
+      "AI-powered task suggestions using Gemini",
+      "Advanced semantic search with Typesense",
+      "Role-based access control (Admin, Co-admin, Elder, Member)",
+      "Live notifications and group task management"
+    ]
+  },
+  {
+    "id": "neural-noir",
+    "title": "Neural Noir",
+    "description": "An immersive neural noir odyssey set in a futuristic realm of mystery, crafted for a college event by GDG x Nirvana for Abhisargra-25.",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
+    "technologies": ["React.js", "Tailwind CSS", "GSAP", "JavaScript"],
+    "category": "Web Development",
+    "status": "Completed",
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "features": [
+      "Immersive futuristic narrative experience",
+      "Swift and responsive interactions",
+      "Comprehensive Google SEO optimization",
+      "Google Analytics integration for visibility"
+    ]
+  },
+  {
+    "id": "whimsy-wave",
+    "title": "Whimsy Wave Blog",
+    "description": "A modern, responsive blog platform built with React and featuring a beautiful dark/light theme, holographic 3D cards, and smooth animations.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "React Router"],
+    "category": "Web Development",
+    "status": "Completed",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/aadi1232/Whimsy-Wave",
+    "features": [
+      "Responsive design with dark/light mode",
+      "3D holographic card effects",
+      "Smooth animations and transitions",
+      "Blog management system"
+    ]
+  }
+]

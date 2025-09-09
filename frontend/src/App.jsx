@@ -6,6 +6,7 @@ import About from "./components/pages/about";
 import Header from "./components/Header";
 import Blog from "./components/pages/Blog";
 import BlogPost from "./components/pages/BlogPost";
+import Projects from "./components/pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:blogId" element={<BlogPost />} />
         </Routes>

@@ -152,8 +152,15 @@ function Home() {
               </Link>
 
               <Link
-                to="/blog"
+                to="/projects"
                 className="px-8 py-4 border-2 border-black dark:border-white text-black dark:text-white rounded-full font-medium text-lg transition-all duration-300 transform hover:scale-105 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black"
+              >
+                View Projects
+              </Link>
+
+              <Link
+                to="/blog"
+                className="px-8 py-4 border-2 border-gray-400 dark:border-gray-500 text-gray-600 dark:text-gray-400 rounded-full font-medium text-lg transition-all duration-300 transform hover:scale-105 hover:bg-gray-400 hover:text-white dark:hover:bg-gray-500 dark:hover:text-white"
               >
                 Read Articles
               </Link>
